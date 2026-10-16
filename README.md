@@ -67,3 +67,43 @@ print(score)  # 15
 
 score *= 2
 print(score)  # 30
+
+
+** if / elif / else su chhe?
+- if — jo condition True hoy to code run kare.
+- elif — pehli condition False hoy to biji condition check kare.
+- else — badhi conditions False hoy to run kare.
+
+  
+** Comparison operators
+Operator	Meaning	Example
+>	Greater than	80 > 35 → True
+<	Less than	20 < 35 → True
+>=	Greater than or equal	35 >= 35 → True
+==	Equal to	50 == 50 → True
+!=	Not equal	40 != 50 → True
+
+
+** Logical operators
+- and — banne conditions True hovi joie.
+- or — koi ek condition True hoy to chale.
+- not — True ne False ane False ne True kare.
+
+**Build a Marks Pass/Fail Program
+Rules:
+- Marks 0 thi 100 vachche hova joie.
+- Marks 35 ke vadhu hoy to Pass.
+- 35 karta ochha hoy to Fail.
+- Invalid marks hoy to Invalid input.
+
+
+marks = float(input("Enter your marks: "))
+
+if marks < 0 or marks > 100:
+    print("Invalid marks")
+
+elif marks >= 35:
+    print("Pass")
+
+else:
+    print("Fail")
